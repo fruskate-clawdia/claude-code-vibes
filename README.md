@@ -1,5 +1,8 @@
 # claude-code-vibes 👻
 
+[![npm version](https://img.shields.io/npm/v/claude-code-vibes.svg)](https://www.npmjs.com/package/claude-code-vibes)
+[![npm downloads](https://img.shields.io/npm/dm/claude-code-vibes.svg)](https://www.npmjs.com/package/claude-code-vibes)
+
 **Замени скучные `Thinking...` на что-то живое**
 
 Устал смотреть на унылые `Analyzing...`, `Pondering...`, `Thinking...`?  
