@@ -29,12 +29,53 @@ npx claude-code-vibes              # ru-vibe по умолчанию
 npx claude-code-vibes corporate    # конкретный пак
 npx claude-code-vibes all          # все 4 пака (112 фраз)
 npx claude-code-vibes random       # случайный пак каждый раз 🎲
-npx claude-code-vibes --sound      # 🔊 звук когда Claude заканчивает
-npx claude-code-vibes --notify     # 🔔 системное уведомление
-npx claude-code-vibes --all-features  # всё сразу одной командой 🚀
 npx claude-code-vibes --add "Моя фраза"  # добавить свою фразу
 npx claude-code-vibes --reset      # сбросить к стандартным
 ```
+
+---
+
+## 🔊 Звуки и уведомления
+
+Устал пропускать момент когда Claude закончил — или наоборот, ждёт тебя?
+
+```bash
+# Звук когда Claude завершил работу
+npx claude-code-vibes --sound
+
+# Звук когда Claude ждёт твоего ввода / разрешения
+npx claude-code-vibes --sound-input
+
+# Разные звуки на каждое событие 🎵
+npx claude-code-vibes --sound-all
+```
+
+На **Mac** используются системные звуки:
+| Событие | Звук |
+|---------|------|
+| ✅ Завершил работу | `Glass` — мягкий, приятный |
+| ⌨️ Ждёт твоего ввода | `Ping` — короткий, внимание! |
+| 🔐 Ждёт разрешения | `Sosumi` — настойчивый |
+
+```bash
+# Пуш-уведомление когда Claude закончил
+npx claude-code-vibes --notify
+
+# Пуш когда Claude ждёт тебя — чтобы не пропустить
+npx claude-code-vibes --notify-input
+
+# Уведомления на все события
+npx claude-code-vibes --notify-all
+
+# Кастомный звук
+npx claude-code-vibes --sound-done "/path/to/done.mp3"
+npx claude-code-vibes --sound-input "/path/to/ping.mp3"
+
+# Всё сразу — паки + звуки + уведомления одной командой 🚀
+npx claude-code-vibes --all-features
+```
+
+Работает на **Mac**, **Linux** и **Windows**.
 
 ---
 
