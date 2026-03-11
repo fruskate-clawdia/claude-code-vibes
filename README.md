@@ -20,6 +20,22 @@ npx claude-code-vibes
 
 ---
 
+## Все команды
+
+```bash
+npx claude-code-vibes              # ru-vibe по умолчанию
+npx claude-code-vibes corporate    # конкретный пак
+npx claude-code-vibes all          # все 4 пака (112 фраз)
+npx claude-code-vibes random       # случайный пак каждый раз 🎲
+npx claude-code-vibes --sound      # 🔊 звук когда Claude заканчивает
+npx claude-code-vibes --notify     # 🔔 системное уведомление
+npx claude-code-vibes --all-features  # всё сразу одной командой 🚀
+npx claude-code-vibes --add "Моя фраза"  # добавить свою фразу
+npx claude-code-vibes --reset      # сбросить к стандартным
+```
+
+---
+
 ## Паки фраз
 
 ### 😤 ru-vibe — Русский вайб (по умолчанию)
