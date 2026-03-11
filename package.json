@@ -1,0 +1,28 @@
+{
+  "name": "claude-code-vibes",
+  "version": "1.0.0",
+  "description": "Замени скучные Thinking... на что-то живое — 4 пака русскоязычных фраз для спиннера Claude Code 👻",
+  "main": "bin/install.js",
+  "bin": {
+    "claude-code-vibes": "./bin/install.js"
+  },
+  "scripts": {
+    "start": "node bin/install.js"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "spinner",
+    "russian",
+    "ai",
+    "vibe",
+    "funny"
+  ],
+  "author": "Clawdia & Fruskate <https://t.me/fruskate>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fruskate-clawdia/claude-code-vibes.git"
+  },
+  "homepage": "https://t.me/ghostinthemachine_ai"
+}
