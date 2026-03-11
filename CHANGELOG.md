@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.2.0] — 2026-03-11
+
+### Добавлено
+- 🎵 `--sound-input` — отдельный звук когда Claude ждёт твоего ввода (`Ping` на Mac)
+- 🎵 `--sound-all` — разные звуки на все события: завершение / ввод / разрешение
+- 🔔 `--notify-input` — пуш уведомление когда Claude ждёт ввода
+- 🔔 `--notify-all` — уведомления на все события
+- 🎨 `--sound-done "/path"` и `--sound-input "/path"` — кастомные звуки
+- Хуки на `Notification` и `PermissionRequest` события Claude Code
+- Поддержка Windows (PowerShell beep + MessageBox)
+- Mac: Glass (завершение) / Ping (ввод) / Sosumi (разрешение)
+
+---
+
+
 ## [1.1.0] — 2026-03-11
 
 ### Добавлено
